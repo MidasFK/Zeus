@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sobre {
+    background-color:  #194d70b9;
+    width: 300px;
+    height: 300px;
+    padding: 3px;
+    box-shadow: 5px 5px black;
+    text-align: justify;
+    border-width: 300px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+a:hover{
+    opacity: 0.7;
+}
+
+
+.logo {
+        font-style: italic;
+        font-size: 24px;
+        text-transform: uppercase;
+        letter-spacing: 4px;   
+        color: rgb(255, 255, 255);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui,-apple-system, Arial, Helvetica, sans-serif;
+    background-color:#194d70;
+    height: 8vh;
+}
+
+body {
+      background: url(../imagens/athena1.jpg) no-repeat
+      center center;
+      background-size:cover;
+      height: 92vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+
+    font-style: italic;
+}
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left:32px;
+    color: aliceblue;
+    font-style: italic;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui,-apple-system, Arial, Helvetica, sans-serif;
+    background-color: #194d70;
+    height: 8vh;
+    margin-top: 176px;
+}
+
+.footer-list {
+    list-style: none;
+    display: flex;
+    color: aliceblue;
+    font-style: italic;
+    
+}
+.footer-list li {
+    letter-spacing: 3px;
+    margin-left:32px;
+    color: aliceblue;
+    font-style: italic;
+   
+}
+
+.cor {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
